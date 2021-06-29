@@ -11,3 +11,5 @@
 * CSS: folhas de estilo
 
 Todos estes cursos foram oferecidos gratuitamente pelo Instituto Federal do Rio Grande do Sul através da plataforma online [Moodle IFRS - https://moodle.ifrs.edu.br](https://moodle.ifrs.edu.br) e concluidos no ano de 2020.
+
+Além destes, é oferecido diversos outros cursos na área de informática e em diversas outras áreas, recomendo para aqueles que desejam iniciar nesta jornada.
