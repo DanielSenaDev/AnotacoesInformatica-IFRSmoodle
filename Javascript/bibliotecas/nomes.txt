@@ -1,0 +1,6 @@
+sweet alert		https://sweetalert.js.org/
+jquery UI e Mobile	
+mathjs
+formatJS
+Stickerjs
+Dropzonejs

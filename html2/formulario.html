@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<section>
+		<h1>Formulário 1</h1>
+
+		<form action="usuarios.txt" method="post">
+
+			<fieldset>
+				<legend>Dados</legend>
+
+			<label for="nome">Nome: </label>
+			<input type="text" name="nome" id="nome" placeholder="Informe seu NOME" autofocus=""><br>
+
+			<label for="homem">Homem</label>
+			<input type="radio" name="sexo" id="homem" value="masculino"><br>
+			
+			<label for="mulher">Mulher</label>
+			<input type="radio" name="sexo" id="mulher" value="feminino"><br><br>
+
+			<label for="sim">Celular SIM</label>
+			<input type="radio" name="celular" id="sim" value="sim"><br>
+
+			<label for="nao">Celular NÃO</label>
+			<input type="radio" name="celular" id="nao" value="nao"><br><br>
+
+			Email: <input type="email" name="email" placeholder="Informe seu EMAIL"><br>
+
+			Cpf: <input type="text" name="cpf" placeholder="Informe seu CPF" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"><br>
+
+			Senha: <input type="password" name="senha" placeholder="Informe sua Senha" required=""><br>
+
+			Endereço: 
+				<textarea 
+					name="endereco" cols="20" rows="4">|Rua:   
+|N°:   
+|Bairro:   
+|Complemento: 
+				</textarea>
+
+			</fieldset>
+			<button type="submit" id="enviar" formtarget="_blank">Enviar</button>
+		</form>
+
+		<form action="usuarios.txt" method="post">
+			<h1>Formulário 2</h1>
+
+			<fieldset>
+				<legend>Seu sexo</legend>
+				<select>
+					<option value="escolhasexo" selected="">Selecione seu SEXO</option>
+					<option value="masculino">Masculino</option>
+					<option value="feminino">Feminino</option>
+				</select>
+
+			</fieldset>
+
+			<fieldset>
+				<legend><strong>Sua faixa etária</strong></legend>
+				<input type="radio" name="idade" value="13">Até 13 anos<br>
+				<input type="radio" name="idade" value="14-20">De 14 à 20 anos<br>
+				<input type="radio" name="idade" value="21-35">De 21 à 35 anos<br>
+				<input type="radio" name="idade" value="36-40">De 35 à 40 anos<br>
+				<input type="radio" name="idade" value="40-50">De 40 à 50 anos<br>
+				<input type="radio" name="idade" value="51-60">De 51 à 60 anos<br>
+				<input type="radio" name="idade" value="60+">Mais de 60 anos<br>
+			</fieldset>
+			<fieldset>
+				<legend><strong>O que você tem?</strong></legend>
+				<dl>
+					<dt><input type="checkbox" name="bens" value="carro">Carro<br></dt>
+					<em>
+					<dd><input type="radio" name="carro" value="0" checked="">Nenhum<br></dd>
+					<dd><input type="radio" name="carro" value="1">1<br></dd>
+					<dd><input type="radio" name="carro" value="2">2<br></dd>
+					<dd><input type="radio" name="carro" value="2+">Mais de 2<br></dd>
+					</em>
+				</dl>
+				
+				<dl>
+					<dt><input type="checkbox" name="bens" value="televisao">Televisão<br></dt>
+					<em>
+					<dd><input type="radio" name="televisao" value="0" checked="">Nenhuma<br></dd>
+					<dd><input type="radio" name="televisao" value="1">1<br></dd>
+					<dd><input type="radio" name="televisao" value="2">2<br></dd>
+					<dd><input type="radio" name="televisao" value="3">3<br></dd>
+					<dd><input type="radio" name="televisao" value="3+">Mais de 3<br></dd>
+					</em>
+				</dl>
+			</fieldset>
+		</form>
+
+		<form maction="usuarios.txd" method="post">
+			<h1>Formulário 3</h1>
+			<fieldset>
+				<legend>Escolha sua cidade</legend>
+				<input list="cidades" name="cidades">
+					<datalist id="cidades">
+						<option value="Aracaju">Sergipe</option>
+						<option value="São Cristovão">Sergipe</option>
+						<option value="Itabaiana">Sergipe</option>
+						<option value="Barra dos Coqueiros">Sergipe</option>
+						<option value="Sao Paulo">São Paulo</option>
+						<option value="Santos">São Paulo</option>
+					</datalist>
+			</fieldset>
+			<fieldset>
+				<legend>Data</legend>
+				<center><input type="date" name="data"></center>
+			</fieldset>
+
+			<input type="list">
+		</form>
+	</section>
+</body>
+</html>

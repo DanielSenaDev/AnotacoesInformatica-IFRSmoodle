@@ -1,0 +1,105 @@
+
+/* Color Theme Swatches in Hex */
+.Interativo-1-hex { color: #7378D9; }
+.Interativo-2-hex { color: #060E40; }
+.Interativo-3-hex { color: #232B59; }
+.Interativo-4-hex { color: #5ABF90; }
+.Interativo-5-hex { color: #BF9663; }
+
+html{
+	background-color: #232B59;
+}
+/*-----HEADER*/
+header{
+	background-color: #060E40;
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: white;
+	border: groove;
+	width: 500px;
+}
+/*-----NAV*/
+nav{
+	background-color: #7378D9;
+	border-radius: 5px;
+	/*margin: 50px;*/
+	margin-left: 50px;
+	margin-right: 500px;
+	width: 250px;
+	
+}
+
+nav a{
+	margin: 15px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+nav a:link, a:visited {
+	color: #5ABF90;
+	}
+
+nav a:hover {
+	text-decoration: underline; 
+	color: #f00;
+	background:#ff0;
+	}
+nav a:active {
+	text-decoration: none;
+	}
+
+/*BODY*/
+section{
+	border-radius: 5px;
+	border: solid;
+	background-color: white;
+	margin: 10px;
+	margin-left: 15px;
+}
+section *{
+	margin-left: 15px;
+}
+
+h1 + p {
+	color: magenta;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h1{
+	margin-right: 15px;
+	margin-left: 15px; 
+	border: groove;
+	font-family: Times;
+	font-size: 20px;
+	color: purple;
+}
+
+h2{
+	font-family: Times;
+	color: #363636;
+}
+
+p{
+	color: #363636;
+	font-size: 17px;
+}
+
+
+li {
+  list-style-type: square;
+}
+
+li.especial,
+span.special{
+	 color: orange;
+  	font-weight: bold;
+}
+
+li em {
+color: magenta;
+}
+
+#descricao{
+	color: #DC143C
+}

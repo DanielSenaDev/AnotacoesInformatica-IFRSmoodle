@@ -1,0 +1,32 @@
+body{
+	font-family: Arial;
+	font-size: 12pt;
+	color: black;
+}
+
+h1{
+	font-family: Verdana;
+	color: green;
+	text-decoration: underline;
+}
+
+h3{
+	font-style: italic;
+	font-family: Verdana;
+	color: purple;
+}
+
+p{
+	font-family: Arial;
+	color: black;
+}
+
+#id1{
+	font-family: Verdana;
+	color: blue;
+}
+
+.classeA{
+	font-family: Tahoma;
+	color: #333333;
+}
